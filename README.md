@@ -14,4 +14,4 @@ The goal of this project was to use Python and C++ side-by-side in order to deve
 
 The most challenging aspect of this project was figuring out the best way to calculate the frequency of each item. I opted to simply loop through the list of items and compare each item until all items have been read. It uses a counter to keep track of the number of times a particular item appears, and then passes that data to C++ for use there.
 
-I think the most important thing that I learned from this project is how to use multiple programming languages in the same project. This is something that I'd never really considered before, but I now realize that this is really important knowledge to have. 
+I think the most important thing that I learned from this project is how to use multiple programming languages in the same project. This is something that I'd never really considered before, but I now realize that this is really important knowledge to have. Each language has unique abilities that may pair well with the abilities of another language. You can use this to your advantage and create some really beautiful code.
