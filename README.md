@@ -9,7 +9,7 @@ When first thinking about developing a program, it typically involves lots of th
 ### What does it mean to be a good team member in software development?
 The first thing that comes to mind is maturity. Maturity is everything, really. You need to hold yourself accountable, and treat those around you with respect. Use "common sense" and think critically, always. The second thing that is really important is communication. Communication is the key to a lot of things, and can never hurt. Communicate with your team members if you have questions, concerns, or even to offer assistance. The more you communicate, the more you will learn from, teach, and connect with your friends and colleagues.
 
-### Project Three
+## Project Three
 The goal of this project was to use Python and C++ side-by-side in order to develop an application that processes a text file of items, calculates the frequency that each item appears, and displays a histogram of the data. It allows you to display the item names and their corresponding frequency, search for a specific item (displaying only that item and its frequency), or display a histogram of all items and their frequencies. Most of this processing happens via Python, but C++ is also an important component in handling the data passed from Python and displaying it to the user.
 
 The most challenging aspect of this project was figuring out the best way to calculate the frequency of each item. I opted to simply loop through the list of items and compare each item until all items have been read. It uses a counter to keep track of the number of times a particular item appears, and then passes that data to C++ for use there.
@@ -17,7 +17,7 @@ The most challenging aspect of this project was figuring out the best way to cal
 I think the most important thing that I learned from this project is how to use multiple programming languages in the same project. This is something that I'd never really considered before, but I now realize that this is really important knowledge to have. Each language has unique abilities that may pair well with the abilities of another language. You can use this to your advantage and create some really beautiful code.
 
 
-### The Gaming Room
+## The Gaming Room
 
 ##### Briefly summarize The Gaming Room client and their software requirements. Who was the client? What type of software did they want you to design?
 
@@ -42,3 +42,11 @@ The user’s needs are essential, because if they aren’t met, no one is going 
 ##### How did you approach designing software? What techniques or strategies would you use in the future to analyze and design a similar software application?
 
 I won’t lie, sometimes I just start writing code and see where it takes me, and then once I have a structure I can write up documents and improve from there. This time, however, the document came first. I approached it very cautiously, because I wanted it to be right. I think it was really helpful to get ideas out onto paper and diagrams before writing code, and I think it’s actually more beneficial. In the future I’d like to keep practicing writing such documents, even if they’re meaningless and will never be used. I sometimes struggle with thinking through the ideas first, which is why I need to practice this more.
+
+## System Analysis and Design
+
+DriverPass was a client who desired a system that would allow customers to schedule in-person driving lessons with a driving instructor. There were various packages available, each offering an extra perk; these included more driving time with an instructor, online resources, and practice exams. Customers could view their profile, which included notes from their driver, the current progress of their quizes and learning materials, and customer support. Some things that I did particularly well in this project include the creating of the UML diagrams. I created activity diagrams, a class diagram, a use case diagram, and a sequence diagram.
+
+Something that I wish I could revise is the business requirements document. In this document, in the sections regarding limitations and assumptions about the system, I feel as though I could have determined less obvious limitations and assumptions. However, this was somewhat difficult in the context of this project, because it was sort of abstract and I did not have a lot of control as to the low-level aspects of the project.
+
+Considering user needs when designing a product is literally the backbone behind the project. If the project does not address the needs of the user, then what good is it? This is why paying attention to the user’s needs and learning how to interpret them and translate them into something meaningful to the rest of the project team is extremely important. Admittedly, I believe I lack this talent as my interest is programming, but I digress. Still, I recognize the importance of this and without it, writing the code for the project would be like writing code without any direction.
