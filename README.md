@@ -19,8 +19,6 @@ The most challenging aspect of this project was figuring out the best way to cal
 
 I think the most important thing that I learned from this project is how to use multiple programming languages in the same project. This is something that I'd never really considered before, but I now realize that this is really important knowledge to have. Each language has unique abilities that may pair well with the abilities of another language. You can use this to your advantage and create some really beautiful code.
 
-------
-
 ## CS-230: Operating Platforms
 
 The Gaming Room is a game studio that needed guidance in how to implement various components of their game, Draw It or Lose it. The game is currently available on Android devices, but they want to expand it to other platforms. The game is to be built from the ground up with portability in mind, as it runs in a user’s web browser and works even on mobile devices. The game needs to host several thousand sessions and users at a time, and host various asset files and other user data.
@@ -35,8 +33,6 @@ The user’s needs are essential, because if they aren’t met, no one is going 
 
 I won’t lie, sometimes I just start writing code and see where it takes me, and then once I have a structure I can write up documents and improve from there. This time, however, the document came first. I approached it very cautiously, because I wanted it to be right. I think it was really helpful to get ideas out onto paper and diagrams before writing code, and I think it’s actually more beneficial. In the future I’d like to keep practicing writing such documents, even if they’re meaningless and will never be used. I sometimes struggle with thinking through the ideas first, which is why I need to practice this more.
 
-------
-
 ## CS-250: Software Development Lifecycle
 
 Interpreting user needs and implementing them into a program is one of the basic skills that one must have when thinking about writing a program. Even if you're just writing it yourself, for yourself, you still need to interpret your thoughts and turn your ideas into concrete information that you can work with. This skill is invaluable, and there are many ways to do this, depending on what works best for you. When interpreting the needs of users who are not yourself, communication is key. You always have to be on the same page with your users. Ask questions, be specific, and ask for clarification when needed. User stories are a really good way to format these things on paper, because it turns these details into concrete information that you can then use to write your program.
@@ -45,8 +41,6 @@ When first thinking about developing a program, it typically involves lots of th
 
 The first thing that comes to mind is maturity. Maturity is everything, really. You need to hold yourself accountable, and treat those around you with respect. Use "common sense" and think critically, always. The second thing that is really important is communication. Communication is the key to a lot of things, and can never hurt. Communicate with your team members if you have questions, concerns, or even to offer assistance. The more you communicate, the more you will learn from, teach, and connect with your friends and colleagues.
 
-------
-
 ## CS-255: System Analysis and Design
 
 DriverPass was a client who desired a system that would allow customers to schedule in-person driving lessons with a driving instructor. There were various packages available, each offering an extra perk; these included more driving time with an instructor, online resources, and practice exams. Customers could view their profile, which included notes from their driver, the current progress of their quizes and learning materials, and customer support. Some things that I did particularly well in this project include the creating of the UML diagrams. I created activity diagrams, a class diagram, a use case diagram, and a sequence diagram.
@@ -54,8 +48,6 @@ DriverPass was a client who desired a system that would allow customers to sched
 Something that I wish I could revise is the business requirements document. In this document, in the sections regarding limitations and assumptions about the system, I feel as though I could have determined less obvious limitations and assumptions. However, this was somewhat difficult in the context of this project, because it was sort of abstract and I did not have a lot of control as to the low-level aspects of the project.
 
 Considering user needs when designing a product is literally the backbone behind the project. If the project does not address the needs of the user, then what good is it? This is why paying attention to the user’s needs and learning how to interpret them and translate them into something meaningful to the rest of the project team is extremely important. Admittedly, I believe I lack this talent as my interest is programming, but I digress. Still, I recognize the importance of this and without it, writing the code for the project would be like writing code without any direction.
-
-------
 
 ## CS-300: Data Structures and Algorithms
 
@@ -71,8 +63,6 @@ As a programmer, the internet is one of my closest friends. It aided me in impro
 
 My work on these projects has expanded my  approach to designing and developing software because now I pay more attention to the data structures I'm using. I never really bothered to analyze the runtime of algorithms before, although I knew that it was important for them to run efficiently. Learning how to measure the runtime efficiency and space efficiency of algorithms will allow me to develop my own algorithms in the future. My work on these projects has also caused me to be more mindful of the readability of my programs, as the projects in this course were somewhat lengthy and complex. Implementing various algorithms and data structures is no easy task.
 
-------
-
 ## CS-305: Software Security
 
 Artemis Financial is a financial consulting company focused on developing individualized financial plans for savings, retirement, investments, and insurance. Due to the nature of the company, they require modern-day security practices to be implemented into their web application. In this project, I "worked" for a company called Global Rain who was tasked with implementing these security practices and improving the web application in any way possible. I identified security vulnerabilities in the code and the project's dependencies and conducted a vulnerability assessment report for mitigating these vulnerabilities.
@@ -86,8 +76,6 @@ Increasing layers of security for this application was guided by the requirement
 To make sure the code was functional and secure after making my additions to the code, I was constantly checking to make sure proper coding practices were being followed and that the code was as efficient as possible. After refactoring the code, I also checked the dependencies again to ensure any new dependencies or code did not contain any known vulnerabilities, and did careful research to mitigate the vulnerabilities if there were any.
 
 I really want to showcase my ability to interpret the needs of the client, Artemis Financial. Interpreting the needs of the client and making sure the software requirements are in order is really the key to developing functional software, and these needs also provide guidance when determining what security practices need to be implemented and where potential vulnerabilities may lie from the outset.
-
-------
 
 ## CS-320: Software Test Automation & QA
 
