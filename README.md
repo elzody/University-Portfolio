@@ -9,8 +9,6 @@
 6. [CS-305: Software Security](#cs-305-software-security)
 7. [CS-320: Software Test Automation & QA](#cs-320-software-test-automation--qa)
 
-------
-
 ## CS-210: Programming Languages
 
 The goal of this project was to use Python and C++ side-by-side in order to develop an application that processes a text file of items, calculates the frequency that each item appears, and displays a histogram of the data. It allows you to display the item names and their corresponding frequency, search for a specific item (displaying only that item and its frequency), or display a histogram of all items and their frequencies. Most of this processing happens via Python, but C++ is also an important component in handling the data passed from Python and displaying it to the user.
