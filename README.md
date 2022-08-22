@@ -8,6 +8,7 @@
 5. [CS-300: Data Structures and Algorithms](#cs-300-data-structures-and-algorithms)
 6. [CS-305: Software Security](#cs-305-software-security)
 7. [CS-320: Software Test Automation & QA](#cs-320-software-test-automation--qa)
+8. [CS-330: Computational Graphics and Visualization](#cs-330-computational-graphics-and-visualization)
 
 ## CS-210: Programming Languages
 
@@ -82,3 +83,13 @@ A great way to ensure that your software is functional and secure is to conduct 
 This leads to interpreting user requirements and incorporating them into the software. It can be really hard to do this, especially for developers. However, it is important to recognize the user requirements and be able to translate them into code. If you fail to interpret the user's needs appropriately, or fail to implement them correctly and efficiently, it could be a huge loss for your company/project. Interpreting the needs of users involves constant communication and listening, and planning. Before writing any code, look at what the user needs and study it. Figure out what these requirements mean, and how they can be applied to software development. Once a set of needs is clearly established, you should begin planning your code. As you program, you should constantly be reviewing the requirements and making sure that you are following them and not getting off track.
 
 This is related to designing software. Designing the software involves a lot of thinking and preparation. Before you write any code, you should plan out your data structures and how you want to accomplish different tasks to satisfy the software requirements. Something that really helps with this is making a UML diagram for each aspect of your software. This is how I break everything down before I begin writing code, and it makes developing the software even easier because you have guidance.
+
+## CS-330: Computational Graphics and Visualization
+
+The project in this course very intensive, and required a lot of work. I learned a lot about OpenGL and graphics programming in general. Due to the intensity and high courseload, I really had to be extra diligent. It really put it into perspective how sometimes there are strict deadlines with lots of work to be done - it's not ideal in the slightest, but it does happen.
+
+The design process I followed when working on this process is quite similar to the process I've followed in the past. I typically plan out everything first, whether it be using UML diagrams or sketches or writing simple lists of requirements or whatever. This project required extra planning, as I also had to learn A LOT about graphics programming to even get started. Once I learned about graphics programming, and I got started, it was simple.
+
+While working on the Milestone assignments that led up to the project, I had to make several changes to my code. Mostly, I just restrutured it to account for the new additions - for example, when lighting was implemented, I changed the data structures to account for this, and tried to make things more modular.
+
+Computational graphics and visualization are becoming increasingly more important these days. Computational physicists can use simulations to study physics, medical specialists can use them to study medicine, etc. Personally, my interest lies in computational linguistics. It's possible that computational graphics can be used in this field in the future, as virtual assistants become increasingly more common in everyday life. Some may choose to take it a step further and create visual solutions to accompany virtual assistants such as Siri or Alexa, and computational graphics and computational linguistics would be used together to accomplish this.
