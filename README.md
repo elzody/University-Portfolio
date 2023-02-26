@@ -1,6 +1,7 @@
 # Portfolio
 
 ## Index
+
 1. [CS-210: Programming Languages](#cs-210-programming-languages)
 2. [CS-230: Operating Platforms](#cs-230-operating-platforms)
 3. [CS-250: Software Development Lifecycle](#cs-250-software-development-lifecycle)
@@ -93,3 +94,11 @@ The design process I followed when working on this process is quite similar to t
 While working on the Milestone assignments that led up to the project, I had to make several changes to my code. Mostly, I just restrutured it to account for the new additions - for example, when lighting was implemented, I changed the data structures to account for this, and tried to make things more modular.
 
 Computational graphics and visualization are becoming increasingly more important these days. Computational physicists can use simulations to study physics, medical specialists can use them to study medicine, etc. Personally, my interest lies in computational linguistics. It's possible that computational graphics can be used in this field in the future, as virtual assistants become increasingly more common in everyday life. Some may choose to take it a step further and create visual solutions to accompany virtual assistants such as Siri or Alexa, and computational graphics and computational linguistics would be used together to accomplish this.
+
+## CS-350: Emerging Systems Architectures and Technologies
+
+This course focused on embedded systems, and the final project involved making a thermostat using the CC3220S-LAUNCHXL board for Texas Instruments. The thermostat features a "heater," which turns on when the ambient temperature reduces below a specified temperature (in Celsius), which can be set by a user and altered at will. The set point for when the heating turns on can be set using the two buttons on the microcontroller, with button zero (the one on the side opposite of the LEDs) decreasing the set point, and button one (on the same side as the LEDs) increasing the set point. It uses a task scheduler to execute multiple state machines at various intervals, while running a timer with a period of 1s. It uses various drivers/peripherals, such as UART2 for outputting data via serial port (used in the project to simulate sending data over Wi-Fi), I2C for communicating with the temperature sensor on the board, GPIO for controlling the LEDs and detecting button pressed, and Timers.
+
+The thing that I did particularly well in when working on this project is that I was able to break down the problem into smaller tasks which I solved individually. For most people, especially programmers, this is essential and absolutely what anyone's first step would be. However, due to my ADHD, it can sometimes be difficult to do things. I've developed several methods for improving my ability to do this, and they have proved to be effective in completing this project. It's very modular, with the code for interfacing with the various peripherals in their own header files, etc. One thing I could certainly improve are the code comments and the documentation in general.
+
+During this course and during the time spent working on this project, I have learned an immense amount of information about embedded systems programming and embedded systems in general. I conducted a lot of research, and even read an extensive eBook on the subject. In particular, it has taught me to develop more efficient code that can run on resource-limited devices, which is becoming increasingly more important these days. In addition, I made this project maintainable, readable, and adaptable by writing clear and concise code, including comments on almost every line of every file, and made it as modular as possible by separating the main thread execution logic from the code which interfaces with the peripherals and obtains data from the board.
