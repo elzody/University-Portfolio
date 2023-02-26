@@ -10,6 +10,7 @@
 6. [CS-305: Software Security](#cs-305-software-security)
 7. [CS-320: Software Test Automation & QA](#cs-320-software-test-automation--qa)
 8. [CS-330: Computational Graphics and Visualization](#cs-330-computational-graphics-and-visualization)
+9. [CS-350: Emerging Systems Architecture and Technologies](#cs-350-emerging-systems-architectures-and-technologies)
 
 ## CS-210: Programming Languages
 
