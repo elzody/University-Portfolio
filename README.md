@@ -11,6 +11,7 @@
 7. [CS-320: Software Test Automation & QA](#cs-320-software-test-automation--qa)
 8. [CS-330: Computational Graphics and Visualization](#cs-330-computational-graphics-and-visualization)
 9. [CS-350: Emerging Systems Architecture and Technologies](#cs-350-emerging-systems-architectures-and-technologies)
+10. [CS-465: Full Stack Development I](#cs-465-full-stack-development-i)
 
 ## CS-210: Programming Languages
 
@@ -36,7 +37,7 @@ I won’t lie, sometimes I just start writing code and see where it takes me, an
 
 ## CS-250: Software Development Lifecycle
 
-Interpreting user needs and implementing them into a program is one of the basic skills that one must have when thinking about writing a program. Even if you're just writing it yourself, for yourself, you still need to interpret your thoughts and turn your ideas into concrete information that you can work with. This skill is invaluable, and there are many ways to do this, depending on what works best for you. When interpreting the needs of users who are not yourself, communication is key. You always have to be on the same page with your users. Ask questions, be specific, and ask for clarification when needed. User stories are a really good way to format these things on paper, because it turns these details into concrete information that you can then use to write your program.
+Interpreting user needs and implementing them into a program is one of the basic skills that one must have when thinking about writing a program. Even if you're just writing it yourself, for yourself, you still need to interpret your thoughts and turn your ideas into concrete information that you can work with. This skill is invaluable, and there are many ways to do this, depending on what works best for you. When interpreting the needs of users who are not yourself, communication is key. You always have to be on the same page with your users. Ask questions, be specific, and ask for clarification when needed. User stories are a great way to format these things on paper, because it turns these details into concrete information that you can then use to write your program.
 
 When first thinking about developing a program, it typically involves lots of thinking, but also lots of writing code. I tend to think as I work, and adapt as needed based on new information that I discover during the process of writing code. This is, I believe, an agile process in and of itself that I incorporate into my work naturally, and will continue to do so as long as I write code.
 
@@ -44,7 +45,7 @@ The first thing that comes to mind is maturity. Maturity is everything, really. 
 
 ## CS-255: System Analysis and Design
 
-DriverPass was a client who desired a system that would allow customers to schedule in-person driving lessons with a driving instructor. There were various packages available, each offering an extra perk; these included more driving time with an instructor, online resources, and practice exams. Customers could view their profile, which included notes from their driver, the current progress of their quizes and learning materials, and customer support. Some things that I did particularly well in this project include the creating of the UML diagrams. I created activity diagrams, a class diagram, a use case diagram, and a sequence diagram.
+DriverPass was a client who desired a system that would allow customers to schedule in-person driving lessons with a driving instructor. There were various packages available, each offering an extra perk; these included more driving time with an instructor, online resources, and practice exams. Customers could view their profile, which included notes from their driver, the current progress of their quizzes and learning materials, and customer support. Some things that I did particularly well in this project include the creating of the UML diagrams. I created activity diagrams, a class diagram, a use case diagram, and a sequence diagram.
 
 Something that I wish I could revise is the business requirements document. In this document, in the sections regarding limitations and assumptions about the system, I feel as though I could have determined less obvious limitations and assumptions. However, this was somewhat difficult in the context of this project, because it was sort of abstract and I did not have a lot of control as to the low-level aspects of the project.
 
@@ -68,11 +69,11 @@ My work on these projects has expanded my  approach to designing and developing 
 
 Artemis Financial is a financial consulting company focused on developing individualized financial plans for savings, retirement, investments, and insurance. Due to the nature of the company, they require modern-day security practices to be implemented into their web application. In this project, I "worked" for a company called Global Rain who was tasked with implementing these security practices and improving the web application in any way possible. I identified security vulnerabilities in the code and the project's dependencies and conducted a vulnerability assessment report for mitigating these vulnerabilities.
 
-The area I think I succeeded in was identifying errors in the code and implementing proper error handling and secure data structures. I also found the areas of cryptography very interesting, as I had to identify a proper cipher suite to be used, implement the SHA-256 hashing algorithm, generate certificates for a secure HTTPS connection, and explain the advantages of using the AES algorithm in cipher block chaining mode. It's important to code securely, because things like lack of exception handling can leak sensitive data if not handled correctly; for example, if an exception is thrown and the program crashes unexpectedly it could leak sensitive financial data. Proper software security implementations can add to a company's overall wellbeing, primarily when it comes to protecting the information of their users, and indeed, their own information when required. They have an obligation to maintain the privacy of their users and implement proper encryption and secure coding practices. It can protect them from attacks, financial loss, and so much more.
+The area I think I succeeded in was identifying errors in the code and implementing proper error handling and secure data structures. I also found the areas of cryptography very interesting, as I had to identify a proper cipher suite to be used, implement the SHA-256 hashing algorithm, generate certificates for a secure HTTPS connection, and explain the advantages of using the AES algorithm in cipher block chaining mode. It's important to code securely, because things like lack of exception handling can leak sensitive data if not handled correctly; for example, if an exception is thrown and the program crashes unexpectedly it could leak sensitive financial data. Proper software security implementations can add to a company's overall well-being, primarily when it comes to protecting the information of their users, and indeed, their own information when required. They have an obligation to maintain the privacy of their users and implement proper encryption and secure coding practices. It can protect them from attacks, financial loss, and so much more.
 
-When working through the vulnerability assessment, it taught me a lot about how to run dependency checks in Java applications and about OWASP and the National Vulnerability Database. It was really helpful to learn about how to use these tools, because I apply the informataion to other Java applications and any other kind of software. It really taught me to closely analyze code for dependency issues and vulnerabilities, and vulnerabilities intrinsic to various languages, services, and architectures.
+When working through the vulnerability assessment, it taught me a lot about how to run dependency checks in Java applications and about OWASP and the National Vulnerability Database. It was really helpful to learn about how to use these tools, because I apply the information to other Java applications and any other kind of software. It really taught me to closely analyze code for dependency issues and vulnerabilities, and vulnerabilities intrinsic to various languages, services, and architectures.
 
-Increasing layers of security for this application was guided by the requirements of Artemis Financial and the company's financial nature, as well as the assignment rubric and general programming and software development/design knowledge. For example, the first thing I did was analyze the code manually for any errors and make sure proper secure coding practices were followed. Then, I analyzed the dependencies for vulnerabilities with the help of the dependency check tool, and made sure to supress false-positives and do proper research to determine which vulnerabilities were serious and which were not relevant to the project. I don't think I'd exactly follow this same procedure when working on future projects, as the software security practices implemented need to be tailored specifically to the software being worked on.
+Increasing layers of security for this application was guided by the requirements of Artemis Financial and the company's financial nature, as well as the assignment rubric and general programming and software development/design knowledge. For example, the first thing I did was analyze the code manually for any errors and make sure proper secure coding practices were followed. Then, I analyzed the dependencies for vulnerabilities with the help of the dependency check tool, and made sure to suppress false-positives and do proper research to determine which vulnerabilities were serious and which were not relevant to the project. I don't think I'd exactly follow this same procedure when working on future projects, as the software security practices implemented need to be tailored specifically to the software being worked on.
 
 To make sure the code was functional and secure after making my additions to the code, I was constantly checking to make sure proper coding practices were being followed and that the code was as efficient as possible. After refactoring the code, I also checked the dependencies again to ensure any new dependencies or code did not contain any known vulnerabilities, and did careful research to mitigate the vulnerabilities if there were any.
 
@@ -88,11 +89,11 @@ This is related to designing software. Designing the software involves a lot of 
 
 ## CS-330: Computational Graphics and Visualization
 
-The project in this course very intensive, and required a lot of work. I learned a lot about OpenGL and graphics programming in general. Due to the intensity and high courseload, I really had to be extra diligent. It really put it into perspective how sometimes there are strict deadlines with lots of work to be done - it's not ideal in the slightest, but it does happen.
+The project in this course very intensive, and required a lot of work. I learned a lot about OpenGL and graphics programming in general. Due to the intensity and high course load, I really had to be extra diligent. It really put it into perspective how sometimes there are strict deadlines with lots of work to be done - it's not ideal in the slightest, but it does happen.
 
 The design process I followed when working on this process is quite similar to the process I've followed in the past. I typically plan out everything first, whether it be using UML diagrams or sketches or writing simple lists of requirements or whatever. This project required extra planning, as I also had to learn A LOT about graphics programming to even get started. Once I learned about graphics programming, and I got started, it was simple.
 
-While working on the Milestone assignments that led up to the project, I had to make several changes to my code. Mostly, I just restrutured it to account for the new additions - for example, when lighting was implemented, I changed the data structures to account for this, and tried to make things more modular.
+While working on the Milestone assignments that led up to the project, I had to make several changes to my code. Mostly, I just restructured it to account for the new additions - for example, when lighting was implemented, I changed the data structures to account for this, and tried to make things more modular.
 
 Computational graphics and visualization are becoming increasingly more important these days. Computational physicists can use simulations to study physics, medical specialists can use them to study medicine, etc. Personally, my interest lies in computational linguistics. It's possible that computational graphics can be used in this field in the future, as virtual assistants become increasingly more common in everyday life. Some may choose to take it a step further and create visual solutions to accompany virtual assistants such as Siri or Alexa, and computational graphics and computational linguistics would be used together to accomplish this.
 
@@ -103,3 +104,42 @@ This course focused on embedded systems, and the final project involved making a
 The thing that I did particularly well in when working on this project is that I was able to break down the problem into smaller tasks which I solved individually. For most people, especially programmers, this is essential and absolutely what anyone's first step would be. However, due to my ADHD, it can sometimes be difficult to do things. I've developed several methods for improving my ability to do this, and they have proved to be effective in completing this project. It's very modular, with the code for interfacing with the various peripherals in their own header files, etc. One thing I could certainly improve are the code comments and the documentation in general.
 
 During this course and during the time spent working on this project, I have learned an immense amount of information about embedded systems programming and embedded systems in general. I conducted a lot of research, and even read an extensive eBook on the subject. In particular, it has taught me to develop more efficient code that can run on resource-limited devices, which is becoming increasingly more important these days. In addition, I made this project maintainable, readable, and adaptable by writing clear and concise code, including comments on almost every line of every file, and made it as modular as possible by separating the main thread execution logic from the code which interfaces with the peripherals and obtains data from the board.
+
+## CS-465: Full Stack Development I
+
+This course was all about the fundamentals of full stack web development. The stack used in this course was the MEAN 
+stack, so MongoDB for NoSQL, non-volatile storage, Express.js for the server-side framework, Angular for front-end 
+development, and Node.js as the JavaScript runtime environment.
+
+At first, I built a site using Express.js which simply served static files, and then moved on to introducing the 
+Handlebars HTML templating engine. It was really nice to use a templating engine, as I've never used one before, but 
+it solved a lot of the problems I was facing in personal projects and made things much easier. In addition, I just used 
+client-side JavaScript to implement various features that could be easier using a front-end framework like Angular or 
+React. Eventually, I moved on to Angular and developed reusable UI components and learned how to talk to the 
+server side from the Angular single-page application, and learned how to capture data from forms in Angular, and other 
+front-end tools.
+
+The backend used a NoSQL database because MongoDB naturally supports JSON which integrates seamlessly 
+with JavaScript (JSON is JavaScript Object Notation, after all). It just made sense. JSON is different from JavaScript 
+in that JSON is not a scripting/programming language, but rather a way to represent data in the form of objects. JSON 
+makes it easy to transfer data between a client and server, especially in a web application, which makes it ideal for 
+a full stack web application.
+
+The benefits that came from using Angular to create reusable UI components were certainly worth it, because the SPA I 
+made was an admin interface for a travelling website where you could edit trips which were listed as simple Bootstrap 
+cards, so there were many UI components using the same structure. Angular made it easy to create these dynamically 
+and format data from the database into these reusable cards. Without a front-end framework like Angular or React, 
+this would need to be done in vanilla JavaScript (with some possible exceptions) which would be a pain.
+
+With any full stack application, security should be considered from the very beginning. In my application, security 
+involved using JWT (JSON Web Tokens) which were stored in local browser storage which were generated by the server 
+using a cryptography library and JWT library. The tokens were based on the user's email address and password (which was 
+hashed and salted), along with other information JWTs require, such as a hashing algorithm, etc. Many of the requests 
+from the admin interface to the server required the stored JWT to be sent along with them in the Authorization header,
+which was verified by the server. So, the security mostly happens on the server side, as it should. If it were on the 
+client side, user's could have more potential for reverse engineering the security layers in use.
+
+Overall, this course was very useful to me and I learned a lot which will be applicable to my personal and professional 
+careers. I already had tons of experience with JavaScript and Node, as well as some experience with Express. Angular 
+was completely new to me, but experience using Angular is a necessity these days. I am glad to have learned about it, 
+and will certainly not stop here.

@@ -1,0 +1,19 @@
+version: "3.1"
+
+services:
+
+  mongo:
+    image: mongo:latest
+    container_name: mongo-cs465
+    command: --auth
+    restart: unless-stopped
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: nyx
+      MONGO_INITDB_ROOT_PASSWORD: siberia
+      MONGO_INITDB_DATABASE: travlr
+    ports:
+      - "4650:27017"
+    volumes:
+      - type: bind
+        source: ./data/
+        target: /data/db
